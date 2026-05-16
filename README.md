@@ -1,5 +1,7 @@
 # Tutorial Git no Github iha Lian Tetum (on Arch Linux)
 
+Git : Plataforma version control system (VCS) hodi halo mudansa ba file iha projetu ruma.
+Github: Plataforma ida ne'ebe developer sira utiliza hodi rai (save), manega no fahe codigo programasaun.
 
 ## 1. Update system operativu lai ho komandu tuir mai:
 ```bash
@@ -25,7 +27,27 @@ Ezemplu iha hau nia makina:
 git version 2.54.0
 ```
 
-## 1. Saida maka Git?
+## 3. Konfigura Git
+Tau naran ho komandu turi mai:
+```bash
+git config --global user.name "Hakerek naran"
+```
+Tau e-mail ho e-mail ne'ebe uza hodi rejistu ba Github ho komandu tuir mai:
+```bash
+git config --global user.email "email@emailezemplo.com"
+```
+Hare'e fali katak susesu:
+```bash
+git config --list
+```
+Ezemplu hanesan tuir mai:
+```bash
+[jeojildo@archlinux ~]$ git config list
+user.email=pereirajeojildo0717@gmail.com
+user.name=jeojildo
+`` `
+
+
 Git nudar plataforma VCS hodi halo mudansa ba ficheiro projetu ruma.
 
 ## 2. Halo installasaun ba Git
