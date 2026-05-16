@@ -6,6 +6,20 @@
 sudo pacman -Syu
 ```
 
+## 2. Instal Git ho komandu tuir mai:
+```bash
+sudo pacman -S git
+```
+
+## 2. Haree fali hodi garante katak Git instala duni ona iha ita nia makina:
+```bash
+git --version
+```
+no se susesu instala duni ona, sei mosu mensajen tuir mai:
+```bash
+git version 2.54.0
+```
+
 ## 1. Saida maka Git?
 Git nudar plataforma VCS hodi halo mudansa ba ficheiro projetu ruma.
 
