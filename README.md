@@ -14,8 +14,9 @@ Atu bele detallu haree iha website official Git ninian
 
 ```bash
 git config --global user.name "ita nia naran"
-git config --global user.email "email@example.com"
+git config --global user.email "email@example.com" 
 
+```
 
-
-## 4. Continua
+## 4. Continua ho etapa seluk
+### 4.1 Upload...
