@@ -12,7 +12,8 @@ Atu bele detallu haree iha website official Git ninian
 
 ## 3. Konfigura git
 
-...bash
+</>bash
 git config --global user.name "ita nia naran"
 
-## 4. 
+
+## 4. Kria file iha editor, bele VS code
