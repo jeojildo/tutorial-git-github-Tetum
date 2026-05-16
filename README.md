@@ -10,10 +10,12 @@ Git nudar plataforma VCS hodi halo mudansa ba ficheiro projetu ruma.
 ## 2. Halo installasaun ba Git
 Atu bele detallu haree iha website official Git ninian
 
-## 3. Konfigura git
+## 3. Konfigura Git
 
-</>bash
+```bash
 git config --global user.name "ita nia naran"
+git config --global user.email "email@example.com"
 
 
-## 4. Kria file iha editor, bele VS code
+
+## 4. Continua
