@@ -19,4 +19,10 @@ git config --global user.email "email@example.com"
 ```
 
 ## 4. Continua ho etapa seluk
-### 4.1 Upload...
+### 4.1 Upload...---
+
+## 5. Loke terminal iha arch linux no hakerek code tuir mai
+```bash
+git init -b min
+```
+## 6. 
