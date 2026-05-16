@@ -1,7 +1,3 @@
----
-marp: true
----
-
 # Tutorial Git no Github iha Lian Tetum (Tutorial Git and Github in Tetum Language)
 
 ## 1. Saida maka Git?
@@ -23,6 +19,11 @@ git config --global user.email "email@example.com"
 
 ## 5. Loke terminal iha arch linux no hakerek code tuir mai
 ```bash
-git init -b min
+git init -b main
 ```
-## 6. 
+## 6. Pois hakerek code tuir mai atu hatudu file ida ne'ebe ita halo ona mudansa ou altera ruma
+```bash
+git status
+```
+
+## 7. 
