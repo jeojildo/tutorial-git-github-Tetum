@@ -19,6 +19,11 @@ no se susesu instala duni ona, sei mosu mensajen tuir mai:
 ```bash
 git version 2.54.0
 ```
+Ezemplu iha hau nia makina:
+```bash
+[jeojildo@archlinux ~]$ git --version
+git version 2.54.0
+```
 
 ## 1. Saida maka Git?
 Git nudar plataforma VCS hodi halo mudansa ba ficheiro projetu ruma.
