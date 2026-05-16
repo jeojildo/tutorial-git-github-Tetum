@@ -45,13 +45,14 @@ Ezemplu hanesan tuir mai:
 [jeojildo@archlinux ~]$ git config list
 user.email=pereirajeojildo0717@gmail.com
 user.name=jeojildo
-`` `
+```
 
+## 24. Generate SSH Key
+Kria SSH Key:
+```bash
+ssh-keygen -t ed25519 -C "email@emailezemplo.com"
+```
 
-Git nudar plataforma VCS hodi halo mudansa ba ficheiro projetu ruma.
-
-## 2. Halo installasaun ba Git
-Atu bele detallu haree iha website official Git ninian
 
 ## 3. Konfigura Git
 
