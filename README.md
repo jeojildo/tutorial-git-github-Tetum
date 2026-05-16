@@ -1,4 +1,10 @@
-# Tutorial Git no Github iha Lian Tetum (Tutorial Git and Github in Tetum Language)
+# Tutorial Git no Github iha Lian Tetum (on Arch Linux)
+
+
+## 1. Update system operativu lai ho komandu tuir mai:
+```bash
+sudo pacman -Syu
+```
 
 ## 1. Saida maka Git?
 Git nudar plataforma VCS hodi halo mudansa ba ficheiro projetu ruma.
