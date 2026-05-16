@@ -1,6 +1,6 @@
 # Tutorial Git no Github iha Lian Tetum (on Arch Linux)
 
-Git : Plataforma version control system (VCS) hodi halo mudansa ba file iha projetu ruma.
+Git : Plataforma version control system (VCS) hodi halo mudansa ba file iha projetu ruma. <br>
 Github: Plataforma ida ne'ebe developer sira utiliza hodi rai (save), manega no fahe codigo programasaun.
 
 ## 1. Update system operativu lai ho komandu tuir mai:
