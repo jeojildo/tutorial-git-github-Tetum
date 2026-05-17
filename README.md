@@ -143,6 +143,32 @@ git push origin main
 ```
 Ezemplu hanesan tuir mai ne'e:
 ```bash
+[jeojildo@archlinux tutorial-git-github-Tetum]$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[jeojildo@archlinux tutorial-git-github-Tetum]$ git add README.md 
+[jeojildo@archlinux tutorial-git-github-Tetum]$ git commit -m "update"
+[main 3254c2f] update
+ 1 file changed, 38 insertions(+), 4 deletions(-)
+[jeojildo@archlinux tutorial-git-github-Tetum]$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 640 bytes | 320.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:jeojildo/tutorial-git-github-Tetum.git
+   c75e51a..3254c2f  main -> main
+[jeojildo@archlinux tutorial-git-github-Tetum]$ 
+```
+Se susesu entaun file refere sei mosu iha Github
 
 
