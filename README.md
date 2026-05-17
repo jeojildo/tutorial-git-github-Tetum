@@ -88,3 +88,27 @@ Ezemplu hanesan tuir mai:
 [jeojildo@archlinux tutorial-git-github-Tetum]$ ssh -T git@github.com
 Hi jeojildo! You've successfully authenticated, but GitHub does not provide shell access.
 ```
+## 6. Kria Repository iha Github
+```bash
+mkdir tutorial-git-github-Tetum
+cd tutorial-git-github-Tetum
+```
+Loke folder tutorial-git-github-Tetum liu husi terminal ho komandu:
+```bash
+cd tutorial-git-github-Tetum
+```
+Ezemplu hanesan komandu tuir mai: (code . : hodi edit file nia konteudu iha Visual Studio Code)
+```bash
+[jeojildo@archlinux Estudagithub]$ cd tutorial-git-github-Tetum/
+[jeojildo@archlinux tutorial-git-github-Tetum]$ code .
+```
+VS code sei mosu, tuir mai kria file ho extensaun .md ho naran README.md ho hakerek komandu tuir mai:
+```bash
+# # Tutorial Git no Github iha Lian Tetum (on Arch Linux)
+```
+no bele kontinua tutorial ho linguajen markdown.
+
+### 7. Halo repository ho naran ne'ebe hanesan iha iha Github:
+Repository name: tutorial-git-github-Tetum (ho )
+## 8. Halo commit 
+
