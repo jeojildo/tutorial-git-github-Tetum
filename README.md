@@ -106,9 +106,43 @@ VS code sei mosu, tuir mai kria file ho extensaun .md ho naran README.md ho hake
 ```bash
 # # Tutorial Git no Github iha Lian Tetum (on Arch Linux)
 ```
-no bele kontinua tutorial ho linguajen markdown.
+no bele kontinua tutorial ho linguajen markdown too kompletu.
 
-### 7. Halo repository ho naran ne'ebe hanesan iha iha Github:
-Repository name: tutorial-git-github-Tetum (ho )
-## 8. Halo commit 
+## 7. Halo repository ho naran ne'ebe hanesan iha iha Github:
+Repository name: tutorial-git-github-Tetum (ho naran ne'ebe hanesan ho makina local)
+
+
+## 8. Connect ba Github
+Kria repository name (depende), ezemplu:
+tutorial-git-github-Tetum depois hakerek komandu:
+```bash
+git remote add origin git@github.com:jeojildo/tutorial-git-github-Tetum.git
+```
+
+## 9. Halo commit
+Connect ona ho github, tuir mai halo commit:
+
+```bash
+git status
+```
+Aumenta file:
+```bash
+git add . 
+```
+Ka bele hakerek file nia naran hanesan:
+```bash
+git add README.md
+```
+Halo commit:
+```bash 
+git commit -m "Initial commit"
+```
+Depois push ba Github: 
+```bash
+git push origin main
+```
+Ezemplu hanesan tuir mai ne'e:
+```bash
+
+
 
