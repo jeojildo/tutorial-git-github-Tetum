@@ -169,6 +169,14 @@ To github.com:jeojildo/tutorial-git-github-Tetum.git
    c75e51a..3254c2f  main -> main
 [jeojildo@archlinux tutorial-git-github-Tetum]$ 
 ```
+Ka habadak komandu hanesan tuir mai ne'e:
+```bash
+git status
+git add README.md
+git commit -m "Initial commit"
+git push origin main
+```
 Se susesu entaun file refere sei mosu iha Github
+
 
 
