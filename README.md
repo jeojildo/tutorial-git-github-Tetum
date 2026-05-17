@@ -47,31 +47,44 @@ user.email=pereirajeojildo0717@gmail.com
 user.name=jeojildo
 ```
 
-## 24. Generate SSH Key
+## 4. Generate SSH Key
+ls: hamosu konteudo folder (list files/directories)
+
+Loke terminal pois hakerek komandu tuir mai: 
+```bash 
+ls ~/.ssh
+```
+
 Kria SSH Key:
 ```bash
 ssh-keygen -t ed25519 -C "email@emailezemplo.com"
 ```
-
-
-## 3. Konfigura Git
-
-```bash
-git config --global user.name "ita nia naran"
-git config --global user.email "email@example.com" 
-
+ka ezemplu hanesan:
+```bash 
+ssh-keygen -t ed25519 -C "pereirajeojildo0717@gmail.com"
 ```
 
-## 4. Continua ho etapa seluk
-### 4.1 Upload...---
-
-## 5. Loke terminal iha arch linux no hakerek code tuir mai
+Depois hanehan enter dala hirak nune'e pois halao (ka halo ativu) ssh-agent hanesan tuir mai:
 ```bash
-git init -b main
+eval "S(ssh-agent -s)"
 ```
-## 6. Pois hakerek code tuir mai atu hatudu file ida ne'ebe ita halo ona mudansa ou altera ruma
+Aumenta key hanesan:
 ```bash
-git status
+ssh-add ~/.ssh/id_ed25519
+```
+Depois copy public key ho komandu:
+```bash
+cat ~/.ssh/id_ed25519.pub
 ```
 
-## 7. 
+## 5. Aumenta SSH key ba Github
+Loke Github SSH Setting no click iha New SSH Key pois paste key ohin copy ne'e no Save.
+Loke terminal pois hakerek komandu:
+```bash
+ssh -T git@github.com(mosu mensagen)
+```
+Ezemplu hanesan tuir mai:
+```bash
+[jeojildo@archlinux tutorial-git-github-Tetum]$ ssh -T git@github.com
+Hi jeojildo! You've successfully authenticated, but GitHub does not provide shell access.
+```
