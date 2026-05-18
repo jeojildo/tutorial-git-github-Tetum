@@ -178,5 +178,12 @@ git push origin main
 ```
 Se susesu entaun file refere sei mosu iha Github
 
+## 10 Git pull
+```bash
+git clone git@github.com:username/naran-repository.git
+```
+
+## 11. Ezemplu
+
 
 
