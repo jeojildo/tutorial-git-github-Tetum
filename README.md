@@ -178,10 +178,15 @@ git push origin main
 ```
 Se susesu entaun file refere sei mosu iha Github
 
-## 10 Git pull
+## 10 Git pull (Atu download repository tomak husi Github ba iha makina local)
 ```bash
 git clone git@github.com:username/naran-repository.git
 ```
+Ezemplu maka:
+```bash
+git clone git@github.com:jeojildo/tutorial-git-github-Tetum.git
+```
+
 
 ## 11. Ezemplu
 
